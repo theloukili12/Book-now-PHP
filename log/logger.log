@@ -1,0 +1,53 @@
+
+[2020-05-23 04:46:46] 1
+[2020-05-23 04:46:46] INSERT INTO `paiement_details`(`payer_email`, `payer_id`, `first_name`, `last_name`, `payment_date`, `payment_status`, `montant`)VALUES ('mohammed.zaidi.se@gmail.com','CSLDQ3NWWYSM4','Mohammed','Zaidi','21:46:36 May 22, 2020 PDT','Completed','0.01')
+[2020-05-23 04:46:46] 2 6
+[2020-05-23 04:46:46] UPDATE `reservations` SET `paiement_details`= 6 , `paiement_status` = 1 where `confirmation_code`= '078ee4a4e0af81a0894dfe33cf62cb33' 
+[2020-05-23 04:46:46] 3
+[2020-07-17 12:20:17] 1 good
+[2020-07-17 12:20:17] 34.0181246 | -5.0078451 | 1 | Avenue Ahmed Bel Frej, Fès 30050, Morocco | 5 | 29
+[2020-07-17 12:20:17] INSERT INTO `reservations`(`date_arriver`, `date_depart`, `chambre_id`, `user_id`, `type_paiement`, `paiement_status` ,`confirmation_code`,`date`, `status`) VALUES ('2020-07-17','2020-07-17',5,29,1,0,'5be3df80d0a7045db3204119494a9cd9','2020-07-17 12:20:17', 0 
+[2020-07-17 12:21:04] 1 good
+[2020-07-17 12:21:04] 34.0181246 | -5.0078451 | 1 | Avenue Ahmed Bel Frej, Fès 30050, Morocco | 5 | 29
+[2020-07-17 12:21:04] INSERT INTO `reservations`(`date_arriver`, `date_depart`, `chambre_id`, `user_id`, `type_paiement`, `paiement_status` ,`confirmation_code`,`date`, `status`) VALUES ('2020-07-17','2020-07-17',5,29,1,0,'5be3df80d0a7045db3204119494a9cd9','2020-07-17 12:21:04', 0 )
+[2020-07-17 12:26:06] 1 good
+[2020-07-17 12:26:06] 34.0181246 | -5.0078451 | 1 | Avenue Ahmed Bel Frej, Fès 30050, Morocco | 6 | 29
+[2020-07-17 12:26:06] INSERT INTO `reservations`(`date_arriver`, `date_depart`, `chambre_id`, `user_id`, `type_paiement`, `paiement_status` ,`confirmation_code`,`date`, `status`) VALUES ('2020-07-17','2020-07-17',6,29,1,0,'5c5ac38648e8b3eb93a26ea5f361e51e','2020-07-17 12:26:06', 0 )
+[2020-08-12 16:31:12] 1 good
+[2020-08-12 16:31:12] INSERT INTO `reservations`(`date_arriver`, `date_depart`, `chambre_id`, `user_id`, `type_paiement`, `paiement_status` ,`confirmation_code`,`date`, `status`) VALUES ('2020-08-12','2020-08-14',11,11,1,0,'a48e6d5568e485bc5fafceb24daa01cf','2020-08-12 16:31:12', 0 )
+[2020-08-12 16:32:09] 1 good
+[2020-08-12 16:32:09] INSERT INTO `reservations`(`date_arriver`, `date_depart`, `chambre_id`, `user_id`, `type_paiement`, `paiement_status` ,`confirmation_code`,`date`, `status`) VALUES ('2020-08-12','2020-08-14',11,11,1,0,'dfa8407128727eeaafd04be5705ce82c','2020-08-12 16:32:09', 0 )
+[2020-08-12 16:33:10] 1 good
+[2020-08-12 16:33:10] INSERT INTO `reservations`(`date_arriver`, `date_depart`, `chambre_id`, `user_id`, `type_paiement`, `paiement_status` ,`confirmation_code`,`date`, `status`) VALUES ('2020-08-12','2020-08-14',11,11,1,0,'d23ea6e7dbee392e3e65fede84dec5ee','2020-08-12 16:33:10', 0 )
+[2020-08-12 16:34:19] 1 good
+[2020-08-12 16:34:19] INSERT INTO `reservations`(`date_arriver`, `date_depart`, `chambre_id`, `user_id`, `type_paiement`, `paiement_status` ,`confirmation_code`,`date`, `status`) VALUES ('2020-08-12','2020-08-14',11,11,1,0,'545829f336c424e17bf8b0aec2bf9ddc','2020-08-12 16:34:19', 0 )
+[2020-08-13 23:48:01] 1 good
+[2020-08-13 23:48:01] INSERT INTO `reservations`(`date_arriver`, `date_depart`, `chambre_id`, `user_id`, `type_paiement`, `paiement_status` ,`confirmation_code`,`date`, `status`) VALUES ('2020-08-13','2020-08-19',12,14,1,0,'f051dfef39d81b8ae3a99550fe7ce6c4','2020-08-13 23:48:01', 0 )
+[2020-08-13 23:54:52] 1 good
+[2020-08-13 23:54:52] INSERT INTO `reservations`(`date_arriver`, `date_depart`, `chambre_id`, `user_id`, `type_paiement`, `paiement_status` ,`confirmation_code`,`date`, `status`) VALUES ('2020-08-13','2020-08-22',12,14,1,0,'f6bed2d4f379609859e593a03b1256b4','2020-08-13 23:54:52', 0 )
+[2020-08-15 10:54:45] 1 good
+[2020-08-15 10:54:45] INSERT INTO `reservations`(`date_arriver`, `date_depart`, `chambre_id`, `user_id`, `type_paiement`, `paiement_status` ,`confirmation_code`,`date`, `status`) VALUES ('2020-08-15','2020-08-17',12,30,1,0,'8ffc3784afdbe1b3a4b098beca545b76','2020-08-15 10:54:45', 0 )
+[2020-08-15 10:55:04] 1 good
+[2020-08-15 10:55:04] INSERT INTO `reservations`(`date_arriver`, `date_depart`, `chambre_id`, `user_id`, `type_paiement`, `paiement_status` ,`confirmation_code`,`date`, `status`) VALUES ('2020-08-15','2020-08-17',12,30,1,0,'1577c5446080b4dfab16ad6e97df5e6f','2020-08-15 10:55:04', 0 )
+[2020-08-15 10:55:32] 1 good
+[2020-08-15 10:55:32] INSERT INTO `reservations`(`date_arriver`, `date_depart`, `chambre_id`, `user_id`, `type_paiement`, `paiement_status` ,`confirmation_code`,`date`, `status`) VALUES ('2020-08-15','2020-08-17',12,30,1,0,'f5c4c3784bdd9bce5632adae44563af4','2020-08-15 10:55:32', 0 )
+[2020-08-15 10:58:27] 1
+[2020-08-15 10:58:27] INSERT INTO `paiement_details`(`payer_email`, `payer_id`, `first_name`, `last_name`, `payment_date`, `payment_status`, `montant`)VALUES ('mohammed.zaidi.se@gmail.com','CSLDQ3NWWYSM4','Mohammed','Zaidi','03:58:17 Aug 15, 2020 PDT','Completed','0.01')
+[2020-08-15 10:58:27] 2 7
+[2020-08-15 10:58:27] UPDATE `reservations` SET `paiement_details`= 7 , `paiement_status` = 1, `status` = 1 where `confirmation_code`= 'f5c4c3784bdd9bce5632adae44563af4' 
+[2020-08-15 10:58:27] 3
+[2020-08-17 16:48:53] 1 good
+[2020-08-17 16:48:53] INSERT INTO `reservations`(`date_arriver`, `date_depart`, `chambre_id`, `user_id`, `type_paiement`, `paiement_status` ,`confirmation_code`,`date`, `status`) VALUES ('2020-08-17','2020-08-20',12,14,1,0,'fca9ef719ee29145e6a8ccba81563d6c','2020-08-17 16:48:53', 0 )
+[2020-09-15 00:22:03] 1 good
+[2020-09-15 00:22:03] INSERT INTO `reservations`(`date_arriver`, `date_depart`, `chambre_id`, `user_id`, `type_paiement`, `paiement_status` ,`confirmation_code`,`date`, `status`) VALUES ('2020-09-15','2020-09-25',12,14,1,0,'84dbe47a24f864cd49775c82dc3a4c3b','2020-09-15 00:22:03', 0 )
+[2020-09-15 17:34:12] 1 good
+[2020-09-15 17:34:12] INSERT INTO `reservations`(`date_arriver`, `date_depart`, `chambre_id`, `user_id`, `type_paiement`, `paiement_status` ,`confirmation_code`,`date`, `status`) VALUES ('2020-09-15','2020-09-25',3,14,3,0,'69d976f9d62072c8272c9729044e775a','2020-09-15 17:34:12', 1 )
+[2020-09-15 17:36:05] 1 good
+[2020-09-15 17:36:05] INSERT INTO `reservations`(`date_arriver`, `date_depart`, `chambre_id`, `user_id`, `type_paiement`, `paiement_status` ,`confirmation_code`,`date`, `status`) VALUES ('2020-09-15','2020-09-26',3,14,1,0,'1ea277e14c6611fb779fe7fb534647af','2020-09-15 17:36:05', 0 )
+[2020-09-15 17:36:40] 1 good
+[2020-09-15 17:36:40] INSERT INTO `reservations`(`date_arriver`, `date_depart`, `chambre_id`, `user_id`, `type_paiement`, `paiement_status` ,`confirmation_code`,`date`, `status`) VALUES ('2020-09-15','2020-09-26',3,14,1,0,'fedfea46211f346c8456b3fcaebdc4ef','2020-09-15 17:36:40', 0 )
+[2020-09-15 17:37:39] 1
+[2020-09-15 17:37:39] INSERT INTO `paiement_details`(`payer_email`, `payer_id`, `first_name`, `last_name`, `payment_date`, `payment_status`, `montant`)VALUES ('mohammed.zaidi.se@gmail.com','CSLDQ3NWWYSM4','Mohammed','Zaidi','10:36:55 Sep 15, 2020 PDT','Completed','0.01')
+[2020-09-15 17:37:39] 2 8
+[2020-09-15 17:37:39] UPDATE `reservations` SET `paiement_details`= 8 , `paiement_status` = 1, `status` = 1 where `confirmation_code`= 'fedfea46211f346c8456b3fcaebdc4ef' 
+[2020-09-15 17:37:39] 3
